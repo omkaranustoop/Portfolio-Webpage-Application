@@ -1,0 +1,50 @@
+/* .contact__container{
+    display: list-item;
+    grid-template-columns: 25% 30%;
+    gap: 10rem;
+    align-items: center;
+} */
+
+.contact__content medium{
+    font-size: 0.75rem;
+    margin: 2rem 0 2.6rem;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.contact__icon{
+    font-size: 0.75rem;
+    margin: 2rem 0 2.6rem;
+    color: var(--color-white);
+}
+
+.contact__medium{
+    gap:2rem;
+    display:grid;
+}
+
+.Contacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 1rem;
+}
+
+/*Media queries for tablets*/
+@media screen and (max-width: 1024px){
+    .contact__container{
+        grid-template-columns: 1fr;
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+/*Media queries for mobile phones*/
+@media screen and (max-width: 600px){
+   .contact__content{
+    text-align: center;
+    flex-direction: row;
+   }
+
+}
